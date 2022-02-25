@@ -1,12 +1,21 @@
 # 03-ImageUiDemo-1-symbols
 
-Using Image systemName symbols to demonstrate SwiftUI Layout with HStack, VStack
+Using Image systemName symbols to demonstrate SwiftUI
 
-- ForEach of array to create visual elements 
+- Page1: Layout with VStack and HStack
 
-- navigation with NavigationLink
+- Page2: array and ForEach to layout several images
 
-- @State for data driven visual elements
+- Page3: ForEach Text Spacer
 
-- Extracting view to improve code organization
+- Page4: List to allow scrolling for overflow
 
+- Page5: NavigationView and NavigationLink
+
+- Page6: creating ItemDetail, ItemRow to improve code organization
+
+- Page7: UI Controls with @State: Toggle, Slider and Picker
+
+- Page8: Picker using ForEach for menu selection
+
+- Page9: NavigationView for Pages1 - Page4
