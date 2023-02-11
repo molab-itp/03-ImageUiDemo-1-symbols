@@ -1,6 +1,4 @@
-# 03-ImageUiDemo-1-symbols
-
-[03-ImageUiDemo-1-symbols](https://github.com/mobilelabclass-itp/03-ImageUiDemo-1-symbols)
+# [03-ImageUiDemo-1-symbols](https://github.com/mobilelabclass-itp/03-ImageUiDemo-1-symbols)
 
 Using Image systemName symbols to demonstrate SwiftUI
 
