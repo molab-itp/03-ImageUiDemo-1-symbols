@@ -6,9 +6,11 @@ import SwiftUI
 import UIKit
 
 struct Page7: View {
+    
   @State var len = 100.0
   @State var fillFlag = true
   @State var selectedImage = "circle"
+    
   var body: some View {
     VStack() {
       Image(systemName: selectedImage  + (fillFlag ? ".fill" : "") )

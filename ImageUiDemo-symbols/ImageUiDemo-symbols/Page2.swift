@@ -20,7 +20,8 @@ let imageArray = [
 struct Page2: View {
   var body: some View {
     VStack {
-      ForEach(0 ..< imageArray.count) { index in
+        ForEach(0 ..< imageArray.count, id: \.self) {
+            index in
         Image(systemName: imageArray[index])
           .resizable()
           .frame(width:100, height: 100)

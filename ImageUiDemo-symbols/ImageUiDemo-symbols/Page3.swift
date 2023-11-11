@@ -6,7 +6,8 @@ import SwiftUI
 struct Page3: View {
   var body: some View {
     VStack {
-      ForEach(0 ..< imageArray.count) { index in
+      ForEach(0 ..< imageArray.count, id: \.self) {
+          index in
         let item = imageArray[index]
         HStack {
           Image(systemName: item)
