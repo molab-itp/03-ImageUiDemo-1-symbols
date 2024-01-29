@@ -1,4 +1,4 @@
-# [03-ImageUiDemo-1-symbols](https://github.com/mobilelabclass-itp/03-ImageUiDemo-1-symbols)
+# [03-ImageUiDemo-1-symbols](https://github.com/molab-itp/03-ImageUiDemo-1-symbols)
 
 Using Image systemName symbols to demonstrate SwiftUI
 
@@ -18,4 +18,4 @@ Using Image systemName symbols to demonstrate SwiftUI
 
 - Page8: Picker using ForEach for menu selection
 
-- Page9: NavigationView for Pages1 - Page4
+- Page9: NavigationView for Pages1 - Page8

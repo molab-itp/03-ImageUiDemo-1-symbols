@@ -11,7 +11,7 @@ import SwiftUI
 struct ImageUiDemo_symbolsApp: App {
     var body: some Scene {
         WindowGroup {
-            Page1()
+            Page9()
         }
     }
 }
