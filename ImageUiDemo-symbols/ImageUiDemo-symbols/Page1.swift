@@ -5,7 +5,7 @@ import SwiftUI
 
 struct Page1: View {
   var body: some View {
-    VStack() {
+    VStack {
       HStack {
         Image(systemName: "circle.fill")
           .resizable()
