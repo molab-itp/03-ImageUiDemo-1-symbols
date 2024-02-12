@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D38F6C2B7AB38F00BA5962 /* project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D38F6B2B7AB38F00BA5962 /* project.swift */; };
 		ABE29F9E2AB39E3C0072F7C2 /* ImageUiDemo_symbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE29F9D2AB39E3C0072F7C2 /* ImageUiDemo_symbolsApp.swift */; };
 		ABE29FA22AB39E3D0072F7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE29FA12AB39E3D0072F7C2 /* Assets.xcassets */; };
 		ABE29FA52AB39E3D0072F7C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE29FA42AB39E3D0072F7C2 /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24D38F6B2B7AB38F00BA5962 /* project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project.swift; sourceTree = "<group>"; };
 		ABE29F9A2AB39E3C0072F7C2 /* ImageUiDemo-symbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageUiDemo-symbols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE29F9D2AB39E3C0072F7C2 /* ImageUiDemo_symbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUiDemo_symbolsApp.swift; sourceTree = "<group>"; };
 		ABE29FA12AB39E3D0072F7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				ABE29FB02AB39EA30072F7C2 /* Page6.swift */,
 				ABE29FAB2AB39EA30072F7C2 /* Page7.swift */,
 				ABE29FAC2AB39EA30072F7C2 /* Page8.swift */,
+				24D38F6B2B7AB38F00BA5962 /* project.swift */,
 				ABE29FAE2AB39EA30072F7C2 /* Page9.swift */,
 				ABE29FA12AB39E3D0072F7C2 /* Assets.xcassets */,
 				ABE29FA32AB39E3D0072F7C2 /* Preview Content */,
@@ -174,6 +177,7 @@
 				ABE29FB62AB39EA30072F7C2 /* Page2.swift in Sources */,
 				ABE29FB52AB39EA30072F7C2 /* Page8.swift in Sources */,
 				ABE29F9E2AB39E3C0072F7C2 /* ImageUiDemo_symbolsApp.swift in Sources */,
+				24D38F6C2B7AB38F00BA5962 /* project.swift in Sources */,
 				ABE29FBA2AB39EA30072F7C2 /* Page4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

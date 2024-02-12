@@ -7,28 +7,21 @@ struct Page1: View {
   var body: some View {
     VStack {
       HStack {
-        Image(systemName: "circle.fill")
-          .resizable()
-          .frame(width:100, height: 100)
-        Image(systemName: "circle")
-          .resizable()
-          .frame(width:100, height: 100)
         Image(systemName: "rectangle")
           .resizable()
-          .frame(width:100, height: 100)
+          .frame(width:.random(in:50..<200), height: .random(in:50..<200))
+        Image(systemName: "rectangle")
+          .resizable()
+          .frame(width:.random(in:50..<200), height: .random(in:50..<200))
       }
       HStack {
-        Image(systemName: "triangle")
+        Image(systemName: "rectangle")
           .resizable()
-          .frame(width:100, height: 100)
-        Image(systemName: "hexagon")
+          .frame(width:.random(in:50..<200), height: .random(in:50..<200))
+        Image(systemName: "rectangle")
           .resizable()
-          .frame(width:100, height: 100)
-        Image(systemName: "pentagon")
-          .resizable()
-          .frame(width:100, height: 100)
+          .frame(width:.random(in:50..<200), height: .random(in:50..<200))
       }
-      // Spacer()
     }
   }
 }
