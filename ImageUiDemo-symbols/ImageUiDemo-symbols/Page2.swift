@@ -30,10 +30,8 @@ struct Page2: View {
   }
 }
 
-struct Page2_Previews: PreviewProvider {
-  static var previews: some View {
+#Preview {
     Page2()
-  }
 }
 
 // https://tisch.nyu.edu/about/directory

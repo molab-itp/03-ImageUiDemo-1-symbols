@@ -33,10 +33,8 @@ struct Page5: View {
   }
 }
 
-struct Page5_Previews: PreviewProvider {
-  static var previews: some View {
+#Preview {
     Page5()
-  }
 }
 
 // https://tisch.nyu.edu/about/directory

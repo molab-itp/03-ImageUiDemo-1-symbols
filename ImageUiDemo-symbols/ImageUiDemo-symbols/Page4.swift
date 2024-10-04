@@ -21,10 +21,8 @@ struct Page4: View {
   }
 }
 
-struct Page4_Previews: PreviewProvider {
-  static var previews: some View {
+#Preview {
     Page4()
-  }
 }
 
 // https://tisch.nyu.edu/about/directory

@@ -42,10 +42,8 @@ struct ExtractedView: View {
   }
 }
 
-struct Page8_Previews: PreviewProvider {
-  static var previews: some View {
+#Preview {
     Page8()
-  }
 }
 
 

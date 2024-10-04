@@ -48,10 +48,8 @@ struct ItemRow: View {
   }
 }
 
-struct Page6_Previews: PreviewProvider {
-  static var previews: some View {
+#Preview {
     Page6()
-  }
 }
 
 // https://tisch.nyu.edu/about/directory

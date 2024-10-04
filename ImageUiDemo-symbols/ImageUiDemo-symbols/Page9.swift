@@ -53,9 +53,7 @@ struct Page9: View {
     }
 }
 
-struct Page9_Previews: PreviewProvider {
-    static var previews: some View {
-        Page9()
-    }
+#Preview {
+    Page9()
 }
 
