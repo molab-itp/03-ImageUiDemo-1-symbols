@@ -7,9 +7,7 @@ struct Page5: View {
   var body: some View {
     NavigationView {
       List {
-        ForEach(0 ..< imageArray.count, id: \.self) {
-            index in
-          let item = imageArray[index]
+        ForEach(imageArray, id: \.self) { item in
           NavigationLink {
             VStack {
               Image(systemName: item)

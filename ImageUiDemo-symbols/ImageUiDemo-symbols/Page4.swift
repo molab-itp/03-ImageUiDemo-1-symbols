@@ -6,9 +6,7 @@ import SwiftUI
 struct Page4: View {
   var body: some View {
     List {
-      ForEach(0 ..< imageArray.count, id: \.self) {
-          index in
-        let item = imageArray[index]
+      ForEach(imageArray, id: \.self) { item in
         HStack {
           Image(systemName: item)
             .resizable()
