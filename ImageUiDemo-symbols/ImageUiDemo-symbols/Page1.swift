@@ -15,10 +15,10 @@ struct Page1: View {
           .frame(width:.random(in:50..<200), height: .random(in:50..<200))
       }
       HStack {
-        Image(systemName: "rectangle")
+        Image(systemName: "square.and.arrow.up")
           .resizable()
           .frame(width:.random(in:50..<200), height: .random(in:50..<200))
-        Image(systemName: "rectangle")
+        Image(systemName: "rectangle.portrait.and.arrow.right")
           .resizable()
           .frame(width:.random(in:50..<200), height: .random(in:50..<200))
       }
